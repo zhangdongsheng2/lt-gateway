@@ -1,0 +1,43 @@
+{
+  "servers": [
+    {
+      "applicationName": "OPC-UA client",
+      "applicationUri": "",
+      "host": "localhost",
+      "port": 49321,
+      "scanPeriodInSeconds": 10,
+      "timeoutInMillis": 5000,
+      "security": "None",
+      "identity": {
+        "type": "username",
+        "username": "root",
+        "password": "root"
+      },
+      "keystore": {
+        "type": "PKCS12",
+        "location": "example.pfx",
+        "password": "secret",
+        "alias": "gateway",
+        "keyPassword": "secret"
+      },
+      "mapping": [
+        {
+          "deviceNodePattern": "ch\\.device\\.Machines\\.Machine A",
+          "deviceNamePattern": "MachineA",
+          "attributes": [],
+          "timeseries": [
+            {
+              "key": "key1",
+              "type": "long",
+              "value": "${TestValueInt}"
+            }, {
+              "key": "name",
+              "type": "string",
+              "value": "${Name}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

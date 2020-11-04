@@ -1,0 +1,3664 @@
+{
+  "servers": [
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.100",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S715",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.102",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S716",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.104",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S717",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.106",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S718",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.108",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S719",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.110",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S720",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.112",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S721",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.114",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S722",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.116",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S723",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.118",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S724",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.120",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S725",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.122",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S726",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.124",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S727",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.126",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S728",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.128",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S729",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.130",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S730",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.132",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S731",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.134",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S732",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.136",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S733",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.138",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S734",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.140",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S735",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.142",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S736",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.144",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S737",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.146",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S738",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.148",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S739",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.150",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S740",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.152",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S741",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.154",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S742",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.156",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S743",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.158",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S744",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.101",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S714",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.103",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S713",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.105",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S712",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.107",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S711",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.109",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S710",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.111",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S709",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.113",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S708",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.115",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S707",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.117",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S706",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.119",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S705",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.121",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S704",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.123",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S703",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.125",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S702",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.127",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S701",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.129",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S700",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.131",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S699",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.133",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S698",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.135",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S697",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.137",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S696",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.139",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S695",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.141",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S694",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.143",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S693",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.145",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S692",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.147",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S691",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.149",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S690",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.151",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S689",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.153",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S688",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.155",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S687",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.157",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S686",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "transport": {
+        "type": "tcp",
+        "host": "192.168.3.159",
+        "port": 502,
+        "timeout": 5000,
+        "reconnect": true,
+        "rtuOverTcp": false
+      },
+      "devices": [
+        {
+          "unitId": 1,
+          "deviceName": "F8S685",
+          "attributesPollPeriod": 3000,
+          "timeseriesPollPeriod": 3000,
+          "attributes": [],
+          "timeseries": [
+            {
+              "tag": "status",
+              "type": "boolean",
+              "pollPeriod": 3000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 3,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 11,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "full",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            },
+            {
+              "tag": "air_ok",
+              "type": "boolean",
+              "pollPeriod": 2000,
+              "functionCode": 3,
+              "address": 2368,
+              "registerCount": 1,
+              "bit": 12,
+              "byteOrder": "BIG"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

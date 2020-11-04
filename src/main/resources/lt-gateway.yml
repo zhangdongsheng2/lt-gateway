@@ -1,0 +1,34 @@
+server:
+  # Server bind address
+  address: "0.0.0.0"
+  # Server bind port
+  port: "9090"
+
+# Check new version updates parameters
+updates:
+  # Enable/disable updates checking.
+  enabled: "${UPDATES_ENABLED:true}"
+
+gateways:
+  tenants:
+    -
+      label: "Tenant"
+      reporting:
+        interval: 60000
+      persistence:
+        type: file
+        path: storage
+        bufferSize: 1000
+      connection:
+        host: "${GATEWAY_HOST:thingsinfo.cn}"
+        port: 1883
+        retryInterval: 3000
+        maxInFlight: 1000
+        security:
+          accessToken: "${GATEWAY_ACCESS_TOKEN:ct0y4GNewOWmQXSiLRqY}"
+      remoteConfiguration: false
+      extensions:
+        -
+          id: "OPC UA"
+          type: "OPC UA"
+          extensionConfiguration: opc-Test-config.json
